@@ -6,6 +6,7 @@ fun main(args: Array<String>) {
     } else {
         println("You did it wrong.")
     }
+
     println("\nEnter a number between 10-20 or 30-40:")
     val b = readLine()!!.toInt()
     if (((b >= 10) && (b <= 20)) || ((b >=30) && (b <= 40))) {
